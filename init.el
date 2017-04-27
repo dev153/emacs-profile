@@ -6,3 +6,6 @@
 (global-set-key [f8] 'neotree-toggle)
 ;; Load the monokai theme
 (load-theme 'monokai t)
+
+(require 'rtags)
+(cmake-ide-setup)
